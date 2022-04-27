@@ -1,0 +1,18 @@
+body{
+    width: 1000px;
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    display: flex;
+    
+}
+
+
+.hero{
+    background-color: #1F2937;
+}
+
+
+.himage{
+    width: 300px;
+    height: auto;
+}
