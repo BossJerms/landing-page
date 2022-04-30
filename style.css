@@ -71,7 +71,7 @@ a:hover{
 
 .sign{
     background-color: #3882f6;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
@@ -89,7 +89,7 @@ a:hover{
 
 /*random information section*/
 .info{
-    background-color: white;
+    background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,5 +127,64 @@ a:hover{
 
 /*quote section*/
 .quote{
-    height: 1000px
+    background-color: #E5E7EB;
+    padding: 150px 350px 100px 350px;
+}
+.qquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.quotee{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 50px;
+}
+/*call to action section*/
+.cta{
+    background-color: #F9FAF8;
+    padding: 100px 210px;
+}
+.panel{
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+.panel{
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.ctamain{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.ctasecond{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.signup{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 30px;
+    border: 2px solid ;
+}
+.signup:hover{
+    opacity: 0.7;
+}
+/*footer section*/
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 42px;
 }
